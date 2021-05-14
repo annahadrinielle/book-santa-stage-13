@@ -15,6 +15,8 @@ import db from "../config";
 import firebase from "firebase";
 import { RFValue } from "react-native-responsive-fontsize";
 
+//use responsive font value (RFValue)
+
 export default class SettingScreen extends Component {
   constructor() {
     super();
