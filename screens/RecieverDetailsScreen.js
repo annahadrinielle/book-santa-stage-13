@@ -6,6 +6,7 @@ import { RFValue } from "react-native-responsive-fontsize";
 import db from "../config.js";
 
 //add images and use responsive font value (RFValue)
+//add book image
 
 export default class RecieverDetailsScreen extends Component {
   constructor(props) {
