@@ -147,6 +147,8 @@ export default class SettingScreen extends Component {
   }
 }
 
+/* Change the complete styling for settings screen */
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
