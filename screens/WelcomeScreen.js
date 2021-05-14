@@ -79,7 +79,10 @@ export default class WelcomeScreen extends Component {
         return Alert.alert(errorMessage);
       });
   };
-
+/*Images to the welcome
+screen and change the
+styling of the signup
+modal*/
   showModal = () => {
     return (
       <Modal
