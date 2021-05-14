@@ -91,6 +91,9 @@ export default class CustomSideBarMenu extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
+      
+{/* giving background color */}
+      
         <View
           style={{
             flex: 0.3,
@@ -99,6 +102,9 @@ export default class CustomSideBarMenu extends Component {
             backgroundColor: "#32867d",
           }}
         >
+      
+{/* making Avatar rounded */}
+      
           <Avatar
             rounded
             source={{
@@ -135,6 +141,9 @@ export default class CustomSideBarMenu extends Component {
               firebase.auth().signOut();
             }}
           >
+            
+{/* adding icons to menu items */}
+
             <Icon
               name="logout"
               type="antdesign"
