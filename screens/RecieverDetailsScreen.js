@@ -5,7 +5,8 @@ import firebase from "firebase";
 import { RFValue } from "react-native-responsive-fontsize";
 import db from "../config.js";
 
-//add images and use RF value
+//add images and use responsive font value (RFValue)
+
 export default class RecieverDetailsScreen extends Component {
   constructor(props) {
     super(props);
