@@ -9,6 +9,8 @@ import MyReceivedBooksScreen from '../screens/MyReceivedBooksScreen';
 
 import {Icon} from 'react-native-elements';
 
+//adding icons to menu items in the drawer
+
 export const AppDrawerNavigator = createDrawerNavigator({
   Home : {
     screen : AppTabNavigator,
