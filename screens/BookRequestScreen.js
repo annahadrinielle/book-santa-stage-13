@@ -303,6 +303,10 @@ export default class BookRequestScreen extends Component {
           <MyHeader title="Request Book" navigation={this.props.navigation} />
         </View>
         <View style={{ flex: 0.9 }}>
+      
+{/* using Input in place of TextInput 
+    and using responsive font values 
+    Install react-native-responsive-fontsize */}
           <Input
             style={styles.formTextInput}
             label={"Book Name"}
