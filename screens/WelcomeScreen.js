@@ -19,6 +19,8 @@ import firebase from "firebase";
 import { Icon } from "react-native-elements";
 import { RFValue } from "react-native-responsive-fontsize";
 
+//use responsive font value (RFValue)
+
 export default class WelcomeScreen extends Component {
   constructor() {
     super();
@@ -79,10 +81,9 @@ export default class WelcomeScreen extends Component {
         return Alert.alert(errorMessage);
       });
   };
-/*Images to the welcome
-screen and change the
-styling of the signup
-modal*/
+
+/* Images to the welcome screen and change the styling of the signup modal */
+
   showModal = () => {
     return (
       <Modal
