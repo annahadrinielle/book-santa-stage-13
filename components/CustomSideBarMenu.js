@@ -13,9 +13,11 @@ import * as ImagePicker from "expo-image-picker";
 import * as Permissions from "expo-permissions";
 import firebase from "firebase";
 import db from "../config";
+//using icon and response factor value
 import { Icon } from "react-native-elements";
 
 import { RFValue } from "react-native-responsive-fontsize";
+
 
 export default class CustomSideBarMenu extends Component {
   state = {
