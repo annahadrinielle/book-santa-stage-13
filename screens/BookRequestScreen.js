@@ -13,6 +13,8 @@ import {
 } from "react-native";
 import db from "../config";
 import firebase from "firebase";
+
+//using responsive font and Input
 import { RFValue } from "react-native-responsive-fontsize";
 import { SearchBar, ListItem, Input } from "react-native-elements";
 
