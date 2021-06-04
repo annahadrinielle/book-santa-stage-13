@@ -20,3 +20,11 @@ const switchNavigator = createSwitchNavigator({
 })
 
 const AppContainer =  createAppContainer(switchNavigator);
+
+/*
+Change the complete styling for settings screen.
+Images to the welcome screen 
+change the styling of the signup modal.
+Adding Input in place of TextInput 
+using responsive font value in the Request book screen.
+*/
