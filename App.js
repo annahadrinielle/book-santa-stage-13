@@ -22,18 +22,18 @@ const switchNavigator = createSwitchNavigator({
 const AppContainer =  createAppContainer(switchNavigator);
 
 /*
-In customesidebar, using icon and responsive font value
+In CustomSideBar, using icon and responsive font value
 
-In Appdrawernavigator, adding icons to menu items
+In AppDrawerNavigator, adding icons to menu items
 
-Change the complete styling for settings screen.
+Change the complete styling for SettingScreen.
 
-In Welcome Screen, change the styling of the signup modal.
+In WelcomeScreen, change the styling of the signup modal.
 Add images to the welcome screen 
 
-In Book Request screen, adding Input in place of TextInput 
+In BookRequestScreen, adding Input in place of TextInput 
 
 Using responsive font value in the screens.
 
-Re-design the receiver details screen
+Re-design the ReceiverDetailsScreen
 */
